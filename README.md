@@ -1,5 +1,8 @@
 # Exercise 7 - 3D Interactive House
 
+Itch.io link:
+https://yarinkash1.itch.io/ex7
+
 ## Project Overview
 This is a Unity 3D project featuring an interactive house environment with a first-person player controller, light switch mechanics, NPC interactions, and shooting gameplay.
 
