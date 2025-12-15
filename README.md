@@ -104,4 +104,4 @@ Assets/
 | Unlock Cursor | ESC |
 
 ## Credits
-Created as part of Game Development course exercise 7.
+Created as part of Game Development course exercise 7. 
