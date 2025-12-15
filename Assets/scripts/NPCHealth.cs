@@ -11,7 +11,7 @@ public class NPCHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         Debug.Log("NPC Health: " + currentHealth);
-        
+
         // Update hearts display
         UpdateHealthDisplay();
     }
@@ -20,7 +20,7 @@ public class NPCHealth : MonoBehaviour
     {
         currentHealth--;
         Debug.Log("NPC hit! Health remaining: " + currentHealth);
-        
+
         // Update hearts display
         UpdateHealthDisplay();
 
@@ -47,16 +47,16 @@ public class NPCHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("NPC is dead!");
-        
+
         // Clear hearts
         if (healthText != null)
         {
             healthText.text = "";
         }
-        
+
         // Make NPC invisible
         GetComponent<Renderer>().enabled = false;
-        
+
         // Disable collider
         GetComponent<Collider>().enabled = false;
     }
